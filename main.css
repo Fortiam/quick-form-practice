@@ -1,0 +1,123 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(42deg, rgb(127, 234, 255), rgb(108, 157, 234), rgb(91, 127, 205));
+    color: rgb(16, 32, 27);
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+h2, .center{
+    width: 50%;
+    min-width: 375px;
+    max-width: 735px;
+    /*background: linear-gradient(125deg, rgb(95, 191, 159), rgb(111, 223, 186));*/
+    /* background: url(https://i.imgur.com/MJAkxbh.png); */
+    background-color: rgba(0,255,255,0.15);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 2px black;
+}
+
+h2{
+    text-align: center;
+    background: rgb(179, 189, 233);
+    width: 40%;
+    height: 30px;  
+    transition: 1.5s, linear;
+}
+
+h2:hover{
+    background: rgb(127, 234, 255);
+    transform: scale(1.1);
+    text-transform: uppercase;
+}
+label, input {
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+input{
+    margin-right: 5px;
+}
+form{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+fieldset{
+    margin-bottom: 10px;
+    min-width: 350px;
+    border-color: rgb(180, 127, 234);
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+button{
+    padding: 5px;
+    background: rgb(127, 234, 255);
+}
+button:hover{
+    color: darkblue;
+}
+
+.btn-field{    
+    text-align: center;
+}
+
+.test{
+    height: 125px;
+}
+.clicked{
+    height: 250px;
+    transition: 1.5s, linear;
+}
+
+.left{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+.right{
+    display: inline-block;
+    width:49%;
+    min-height: 22px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(148, 127, 255);
+    border-radius: 10px;
+}
+div.right span{
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    bottom: 30px;
+}
+.answer-box{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.math{
+    display: inline-block;
+    padding-left: 25px;
+}
+div.math button{
+    width: 30px;
+}
+
+/*127, 234, 255
+#7FAAFF
+127, 170, 255
+#947FFF
+148, 127, 255
+#D47FFF
+212, 127, 255
+#FF7FEA
+255, 127, 234*/

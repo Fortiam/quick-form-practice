@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fast</title>
+    <script type="text/javascript" src="./jQuery.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header role="banner">
+        <h2>Click on Me Please</h2>
+    </header>
+    <main role='main'>
+        <div class="center">
+        <form name="practice-form-name">
+            <fieldset class="test">
+                <legend>Hello Human, Click this text to expand this fieldset.</legend>
+                <div>
+                    <label for="First-Name">First Name here:</label>
+                    <input type="text" id="First-Name" placeholder="Enter First Name Here..." required>
+                </div>
+                <label for="Last-Name">Last Name here:</label>
+                <input type="text" id="Last-Name" placeholder="Enter Last Name Here..." required>
+            </fieldset>
+            <fieldset class="test">
+                <legend>Hi again, Click This text to expand my field.</legend>
+                <div>
+                    <label for="radio-1">Change Headline</label>
+                    <input type="radio" id="radio-1" name="radio" value="1">
+                </div>
+                <div>
+                    <label for="radio-2">Don't Change Headline</label>
+                    <input type="radio" id="radio-2" name="radio" value="2"> 
+                </div>
+                <div>
+                    <label for="radio-3">Option 3</label>
+                    <input type="radio" id="radio-3" name="radio" value="2">
+                </div>
+            </fieldset>
+            <fieldset class="btn-field">
+                <button class="reset-btn" type="reset">RESET</button>
+                <button type="submit">SUBMIT</button>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset id="Math">
+                <div class="left">
+                    <div><button type="button" class="number" value="1">1</button><button class="number" value="2"type="button">2</button><button class="number" value="3"type="button">3</button><div class="math"><button class="plus operator" value="+"type="button">+</button><button class="times operator"  value="*"type="button">*</button></div></div>
+                    <div><button type="button" class="number" value="4">4</button><button class="number" value="5"type="button">5</button><button class="number" value="6"type="button">6</button><div class="math"><button class="minus operator" value="-"type="button">-</button><button class="divide operator"  value="/"type="button">/</button></div></div>
+                    <div><button type="button" class="number" value="7">7</button><button class="number" value="8"type="button">8</button><button class="number" value="9"type="button">9</button><button class="number" value="0"type="button">0</button><div class="math"><button class="equals"  value="="type="button">=</button></div></div>
+                </div>
+                <div class="right">
+                    <span class="leftBank">Math!</span>
+                    <output class="formula" id="formula" name="formula" value="0" placeholder=" "></output>
+                </div>
+                <div class="answer-box">
+                    <label for="result">Answers!</label>
+                    <output class="result" id="result" name="result">Display for Answer</output>
+                </div>
+            </fieldset>
+        </form>
+        </div>
+    </main>
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
