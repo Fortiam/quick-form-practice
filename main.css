@@ -5,7 +5,6 @@ body{
     background: linear-gradient(42deg, rgb(127, 234, 255), rgb(108, 157, 234), rgb(91, 127, 205));
     color: rgb(16, 32, 27);
     margin: 0;
-    
     box-sizing: border-box;
 }
 h2, .center{
@@ -71,8 +70,9 @@ button:hover{
     height: 125px;
 }
 .clicked{
-    height: 250px;
+    height: 600px;
     transition: 1.5s, linear;
+    display: inline-block;
 }
 
 .left{
@@ -135,6 +135,12 @@ a {
 	font-size: 18px;
 }
 
+.thumbnail {
+    /* max-width: 640px;
+    max-height: 480px; */
+    display: none;
+    text-align: center;
+}
 
 /*127, 234, 255
 #7FAAFF

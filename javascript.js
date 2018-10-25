@@ -9,15 +9,14 @@ const info = {
 $("legend").click(function(event){
     event.stopPropagation();
     $(this).parent().toggleClass("clicked");
+    switchDisplay();
 });
 
 $("h2").click(function(event){
     event.stopPropagation();
     $(".test").slideToggle("slow", function callback(){
-        console.log("h2 clicked and ran");
     });
-});  
-
+});
 
 $("input[type='text']").keypress(function(event){
         if(event.which === 13 && $("#radio-1")["0"].checked){
@@ -26,8 +25,6 @@ $("input[type='text']").keypress(function(event){
             $("h2").text(headlineText);
         }
 });
-
-//$("#radio-3").text(myObj.employees[1]["firstName"]);
 
 $(".reset-btn").click(function(event){
     event.stopPropagation();
@@ -88,4 +85,10 @@ function showMath(){
     return;
 }
 
-// import { myObj } from "JSON-practice.js";
+function switchDisplay(){
+    if ($(".thumbnail").css("display")==="none") {
+        $(".thumbnail").css("display", "block");
+    } else {
+        $(".thumbnail").css("display", "none");
+    }
+}
