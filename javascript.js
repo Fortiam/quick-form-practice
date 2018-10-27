@@ -18,7 +18,7 @@ $("h2").click(function(event){
     });
 });
 
-$("input[type='text']").keypress(function(event){
+$("#First-Name").keypress(function(event){
         if(event.which === 13 && $("#radio-1")["0"].checked){
             let headlineText = $(this).val();
         

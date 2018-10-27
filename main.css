@@ -28,6 +28,10 @@ h2{
     transition: 1.5s, linear;
 }
 
+h3 {
+    text-align: center;
+}
+
 h2:hover{
     background: rgb(127, 234, 255);
     transform: scale(1.1);
@@ -59,7 +63,7 @@ button{
     background: rgb(127, 234, 255);
 }
 button:hover{
-    color: darkblue;
+    background-color: lightblue;
 }
 
 .btn-field{    
@@ -142,12 +146,14 @@ a {
     text-align: center;
 }
 
-/*127, 234, 255
-#7FAAFF
-127, 170, 255
-#947FFF
-148, 127, 255
-#D47FFF
-212, 127, 255
-#FF7FEA
-255, 127, 234*/
+.practice-form-api {
+    height: 600px;
+
+}
+
+.test-api {
+    border-width: 0;
+}
+#searchBox {
+    width: 50%;
+}
